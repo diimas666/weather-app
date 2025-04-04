@@ -1,0 +1,1 @@
+{"root":["./src/app.test.tsx","./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/weatherapi.test.ts","./src/api/weatherapi.ts","./src/hooks/useweather.ts","./src/types/weather.ts","./jest.setup.ts","./vite.config.ts"],"version":"5.7.3"}

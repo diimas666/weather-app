@@ -10,12 +10,17 @@ import {
 } from '@mui/material';
 import { useWeather } from './hooks/useWeather';
 import { Fade } from '@mui/material';
+
 function App() {
   const { city, setCity, weather, error, loading, getWeather } = useWeather();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    getWeather();
+    const trimmedCity = city.trim();
+    if (trimmedCity) {
+      setCity(trimmedCity); 
+      getWeather(); 
+    }
   };
 
   return (
