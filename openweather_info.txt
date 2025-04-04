@@ -1,0 +1,4 @@
+API-ключ: 6ebefa0f6bd79b00debac845f91108fd
+Эндпоинт: api.openweathermap.org
+Пример запроса: api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=6ebefa0f6bd79b00debac845f91108fd
+Документация: https://openweathermap.org/api
